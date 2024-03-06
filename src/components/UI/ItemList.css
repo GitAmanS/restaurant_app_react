@@ -1,0 +1,33 @@
+.Items-container{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 800px;
+    background-color: white;
+    
+    border-radius: 15px;
+    margin-top: 10px;
+    justify-content: left;
+}
+
+.Item{
+    margin-left: 30px;
+    border-bottom: 1px solid gray;
+    
+}
+
+.itemname{
+    font-size: 23px;
+}
+
+.itemdesc{
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.itemprice{
+    font-size: 25px;
+    color: brown;
+}
+
