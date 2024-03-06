@@ -1,0 +1,45 @@
+.itemparent{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+
+.Item{
+    margin-left: 30px;
+
+    
+}
+
+.itemname{
+    font-size: 23px;
+}
+
+.itemdesc{
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.itemprice{
+    font-size: 25px;
+    color: brown;
+}
+
+
+.amountcontainer{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.amountbutton{
+    background-color: brown;
+    width: 90px;
+    font-size:20px;
+    color: white;
+    font-weight: 300;
+    border-radius: 50px;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./ItemList.css"
+import Item from './Item'
 const ItemsData= [
     {
         id:1,
@@ -24,11 +25,7 @@ const ItemList = () => {
   return (
     <div className='Items-container'>
         {ItemsData.map((item)=>{
-            return <div key={item.id} className='Item'>
-                <h1 className='itemname'>{item.name}</h1>
-                <p className='itemdesc'>{item.desc}</p>
-                <h1 className='itemprice'>Rs{item.price}</h1>
-            </div>
+            return <Item item={item}/>
         })}
     </div>
   )
